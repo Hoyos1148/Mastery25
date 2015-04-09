@@ -1,0 +1,14 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main()
+{
+	string nombre;
+	cout<<"Dime tu nombre"<<endl;
+	cin>>nombre;
+	cout<<"Hola "<< nombre.at(5) <<" Bienvenido"<<endl;
+}
+//comienza a contar desde cero
+//.at nos dice el caracter justo en la posicion dada
+//.size el tamo
